@@ -77,5 +77,7 @@ VPS没有图形界面，所有的操作和输出都要通过命令来进行，�
 具体怎么配置Kcptun这里不做赘述，这里参考一下Leonn的博客就够了。
 1. [Kcptun服务器配置](https://blog.liyuans.com/archives/kcptun-server-configuration-tutorial.html)
 2. [Kcptun客户端配置](https://blog.liyuans.com/archives/kcptun-client-configuration-tutorial.html)
+
  ## 4. 可能碰到的问题
+
  1. 能ping通服务器，但客户端还是不能翻墙，有可能是Linode给你分配的ip被墙了，需要重新更换ip。由于Linode是按照使用时常收费的，更换ip比较简单的方式是删除选择的节点，重新选择一个新的服务器，会重新分配一个ip，按照前面提到的配置重新配置一遍，正常来说就可以翻墙了。
