@@ -7,6 +7,12 @@
 
     {% include header.html %}
 
+    <div id="search-container">
+<input type="text" id="search-input" placeholder="search...">
+<ul id="results-container"></ul>
+</div>
+
+
         {{ content }}
 
     {% include footer.html %}
@@ -20,6 +26,20 @@
         offset: 20, // Integer. How far to offset the scrolling anchor location in pixels
       });
     </script>
+
+
+
+    <script src="/js/search-script.js" type="text/javascript"></script>
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json'
+})
+</script>
+
+
     <!-- <script src="{{ " /js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
   </body>
 
