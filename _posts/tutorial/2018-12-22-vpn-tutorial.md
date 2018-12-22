@@ -25,7 +25,7 @@ VPS(Virtual Private Server) 选择很多，这里选择[Linode](https://www.lino
 
 之后可以看到购买的机器和它的部分属性，比如IP。
 
-![](/images/20181222/Linode.PNG)
+![](/images/20181222/linode.PNG)
 
 ## 2.安装Shadowsocks
 
