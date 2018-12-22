@@ -25,7 +25,7 @@ VPS(Virtual Private Server) 选择很多，这里选择[Linode](https://www.lino
 
 之后可以看到购买的机器和它的部分属性，比如IP。
 
-![](images/20181222/Linode.PNG)
+![](/images/20181222/Linode.PNG)
 
 ## 2.安装Shadowsocks
 
@@ -44,7 +44,7 @@ VPS没有图形界面，所有的操作和输出都要通过命令来进行，�
 
 * 下载PuTTY后，按下图输入VPS的IP，其它保持不变，点击open
 
-![](images/20181222/putty.PNG)
+![](/images/20181222/putty.PNG)
 
 * login as:root
 * password: Linode配置时设置的Root密码
@@ -68,7 +68,7 @@ VPS没有图形界面，所有的操作和输出都要通过命令来进行，�
 * 下载好Shadowsocks.zip，解压，里面只有一个Shadowsocks.exe。打开，输入自己的服务器ip、端口、密码。
 
   **注意：** 服务器IP填写Linode服务器的IP，不是前面提到的Shadowsocks生成的 `"server":"0.0.0.0"`，但是服务器端口、密码和加密方式分别对应前面Shadowsocks生成的 **server_port, password, method**。配置好Shadowsocks后，右键Shadowsocks图标，勾选 **启动系统代理**，如下图所示：
-  ![](images/20181222/shadow.jpg)
+  ![](/images/20181222/shadow.jpg)
 * 此时，电脑已经具备了翻墙能力，直接使用google搜索了。
 
 ## 3. Kcptun加速
