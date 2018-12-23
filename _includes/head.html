@@ -58,20 +58,24 @@
     </script>
 {% endif %}
 
-{% if page.mathjax %}
+
 <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-    tex2jax: { inlineMath: [["$","$"],["\\(","\\)"]] },
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(', '\\)']],
+      processEscapes: true
+      },
     "HTML-CSS": {
-      linebreaks: { automatic: true, width: "container" }
+      availableFonts: [],
+      preferredFont: null,
+      webFont: "STIX",
+      imageFont: null
     }
-});
-</script>
-<script type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-<!-- <script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script> -->
-{% endif %}
+  });
+  </script>
+  <!-- Use cdnjs as CDN providor -->
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML">
+  </script>
+
 </head>
