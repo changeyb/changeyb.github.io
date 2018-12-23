@@ -52,7 +52,7 @@ VPS没有图形界面，所有的操作和输出都要通过命令来进行，�
 * 输入 `curl 'https://raw.githubusercontent.com/shadowsocks/stackscript/master/stackscript.sh?v=4' > /tmp/ss.sh && bash /tmp/ss.sh && rm /tmp/ss.sh`，并等待任务完成
 * 输入 `supervisorctl status` 检查下Shadowsocks是否已经开始运行，正常情况下会出现 `shadowsocks RUNNING`
 * 输入 `cat /etc/shadowsocks.json` 查看Shadowsocks生成的随机配置。例如：
-```
+```json
 {
     "server":"0.0.0.0",
     "server_port":4762,

@@ -114,7 +114,7 @@ $$
 
 ### 2.1 仿射变换
 示例代码：
-```
+```python
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -137,7 +137,7 @@ plt.show()
 
 ### 2.2 透视变换
 示例代码：
-```
+```python
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
