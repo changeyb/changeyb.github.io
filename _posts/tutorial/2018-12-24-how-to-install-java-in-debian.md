@@ -19,7 +19,9 @@ author: Benjamin
 3. 配置java环境变量
 * vim /etc/profile
 * 将下面内容复制到底部：
+
 ```sh
+
 JAVA_HOME=your_software_dir/jdk1.8.0_191
 
 PATH=$JAVA_HOME/bin:$PATH
