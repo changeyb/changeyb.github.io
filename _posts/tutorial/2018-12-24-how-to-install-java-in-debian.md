@@ -16,7 +16,7 @@ author: Benjamin
 
 1. 进入或创建一个你希望安装java的文件夹your_software_dir。通过如下命令下载jdk：
 
-`wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" https://download.oracle.com/otn-pub/java/jdk/8u191-b12/2787e4a523244c269598db4e85c51e0c/jdk-8u191-linux-x64.tar.gz`
+  `wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" https://download.oracle.com/otn-pub/java/jdk/8u191-b12/2787e4a523244c269598db4e85c51e0c/jdk-8u191-linux-x64.tar.gz`
 
 2. 解压文件 `tar -zxvf jdk-8u191-linux-x64.tar.gz`
 
