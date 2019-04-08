@@ -123,7 +123,7 @@ def access_douban(start):
         return None
 
 ### 每一部电影的信息
-single_film_pattern = re.compile('<div class="item">(.*?)</p>\n                    </div>\n                </div>\n            </div>', re.S)
+single_film_pattern = re.compile('<div class="item">(.*?)\s+</div>\s+</div>\s+</div>', re.S)
 rank_pattern = re.compile('<em class="">(\\d+)</em>', re.S) #排名
 film_name_pattern = re.compile('<span class="title">(.*?)</span>', re.S) #多个电影名称
 other_name_pattern = re.compile('<span class="other">(.*?)</span>', re.S) #其他电影名称
