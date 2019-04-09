@@ -2,7 +2,7 @@
 layout: post
 title:  "爬虫任务一"
 categories: crawl
-tags: crawl 爬虫
+tags: crawl 爬虫 re 正则表达式
 author: Benjamin
 ---
 
