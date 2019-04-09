@@ -2,7 +2,7 @@
 layout: post
 title:  "爬虫任务二"
 categories: crawl
-tags: crawl 爬虫 BeautifulSoup
+tags: crawl 爬虫 BeautifulSoup xpath lxml
 author: Benjamin
 ---
 
