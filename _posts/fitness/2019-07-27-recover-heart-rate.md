@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "心率恢复率"
+title:  "心率恢复率"
 categories: 健身
-tags: 心率 恢复率
+tags: 健身 心率恢复率
 author: Benjamin
 ---
 
