@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "心率恢复率"
+title: "心率恢复率"
 categories: 健身
 tags: 心率 恢复率
 author: Benjamin
@@ -10,6 +10,8 @@ author: Benjamin
 {:toc}
 
 心率恢复率，即运动后心率恢复到正常水平的速率。心率恢复率的大小一定程度上反映了一个人的健康程度。如何测量心率恢复率呢？主要分为3步：
+
+
 
 
 ## 第一步：找到目标心率
